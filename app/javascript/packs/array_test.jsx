@@ -2,13 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 import Item from './item'
-import App from './Test2'
+import Allitems from './allitems'
 
 
 
 document.addEventListener('DOMContentLoaded', () => {
     ReactDOM.render(
-      <App />,
+      <Allitems/>,
       document.body.appendChild(document.createElement('div')),
     )
   })
