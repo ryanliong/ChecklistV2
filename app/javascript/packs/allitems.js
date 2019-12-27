@@ -7,7 +7,7 @@ class Allitems extends React.Component {
         return (
             <div>
             {this.props.items.map((item, key) =>
-                <Item item={item} key={item.id} handleDelete = {this.props.handleDelete} />
+                <Item item={item} key={item.id} handleDelete = {this.props.handleDelete} handleUpdate = {this.props.handleUpdate}/>
             )}
             </div> 
         )
